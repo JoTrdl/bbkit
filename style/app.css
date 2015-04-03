@@ -1,0 +1,82 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  background-color: #1E88E5;
+  color: #fff;
+  padding-right: 2em;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: right;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+}
+
+aside {
+  position: absolute;
+  padding-top: 70px;
+  width: 180px;
+  height: 100%;
+  background-color: #607D8B;
+  color: #fff;
+  z-index: 0;
+  box-sizing: border-box;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+}
+
+.content {
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.logger {
+  position: fixed;
+  width: 350px;
+  height: 200px;
+  bottom: 15px;
+  right: 15px;
+  font-size: 10px;
+  font-family: monospace;
+  padding: 0 5px;
+  overflow-y: auto;
+  background-color: #E0E0E0;
+  cursor: move;
+  z-index: 10;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+}
+.logger p { margin: 0.5em 0;}
+
+a { 
+  text-decoration: none; 
+  color: #283593;
+}
+a:hover { text-decoration: underline ;}
+
+
+.text-center { text-align: center; }
+
+.valign {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.valign > * {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+

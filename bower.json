@@ -1,0 +1,26 @@
+{
+  "name": "bbkit",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JoTrdl/bbkit",
+  "authors": [
+    "JoTrdl"
+  ],
+  "description": "Backbonejs/Exoskeleton starter kit",
+  "keywords": [
+    "Backbonejs",
+    "Exoskeleton"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "backbone": "~1.1.2"
+  }
+}

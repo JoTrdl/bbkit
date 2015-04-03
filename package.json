@@ -1,0 +1,10 @@
+{
+  "name": "BBKit",
+  "description": "Backbone starter kit",
+  "version": "0.0.0",
+  "author": "JoTrdl",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-connect": "latest"
+  }
+}

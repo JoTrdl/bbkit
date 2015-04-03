@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BB Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/underscore/underscore.js"></script>
+    <script src="vendor/backbone/backbone.js"></script>
+
+    <link rel="stylesheet" href="./style/app.css">
+  </head>
+  
+  <body>
+
+    <!-- header template -->
+    <script type="text/template" id="header-tmpl">
+      <div class="valign"><a href="#/">Home</a></div>
+    </script>
+    <!-- sidebar template -->
+    <script type="text/template" id="sidebar-tmpl">
+      <div class="text-center">
+        <b> Sidebar </b>
+        <div><a href="#modulea">Module A</a></div>
+        <div><a href="#moduleb">Module B</a></div>
+      </div>
+    </script>
+
+    <!-- home template -->
+    <script type="text/template" id="home-tmpl">
+      <div class="text-center">
+        <div><b> Welcome home </b></div>
+        <a href="#home/b">Go to sub route /b</a>
+      </div>
+    </script>
+
+    <!-- module A template -->
+    <script type="text/template" id="module-a-tmpl">
+      <div class="text-center"><b> I am the Module A </b></div>
+    </script>
+
+    <!-- module B template -->
+    <script type="text/template" id="module-b-tmpl">
+      <div class="text-center"><b> I am the Module B </b></div>
+    </script>
+
+  </body>
+
+  <script src="app/app.namespace.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/helper/app.dispatcher.js"></script>
+  <script src="app/helper/app.subroute.js"></script>
+
+  <script src="app/modules/root/root.controller.js"></script>
+  <script src="app/modules/root/views/root.view.js"></script>
+  <script src="app/modules/root/views/viewport.view.js"></script>
+  <script src="app/modules/root/views/logger.view.js"></script>
+
+  <script src="app/modules/home/home.controller.js"></script>
+  <script src="app/modules/home/a.view.js"></script>
+  <script src="app/modules/home/b.view.js"></script>
+  
+  <script src="app/modules/modulea.controller.js"></script>
+  <script src="app/modules/moduleb.controller.js"></script>
+
+  
+  <script src="app/app.startup.js"></script>
+</html>
