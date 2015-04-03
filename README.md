@@ -1,2 +1,3 @@
-# bbkit
-Backbone starter kit
+# BBKit
+Backbone starter kit.
+Modularized template with sub-routing system.
